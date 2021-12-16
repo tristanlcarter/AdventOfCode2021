@@ -14,6 +14,10 @@
 #include "Day7.h"
 #include "Day8.h"
 #include "Day9.h"
+#include "Day10.h"
+#include "Day11.h"
+#include "Day12.h"
+#include "Day13.h"
 
 using namespace std;
 
@@ -140,6 +144,56 @@ int main()
             return d9.part2();
         }
         break;
+    case 10:
+        day10 d10;
+        if (part == 1)
+        {
+            return d10.part1();
+        }
+        else if (part == 2)
+        {
+            return d10.part2();
+        }
+        break;
+    case 11:
+    {
+        day11 d11;
+        if (part == 1)
+        {
+            return d11.part1();
+        }
+        else if (part == 2)
+        {
+            return d11.part2();
+        }
+        break;
+    }
+    case 12:
+    {
+        day12 d12;
+        if (part == 1)
+        {
+            return d12.part1();
+        }
+        else if (part == 2)
+        {
+            return d12.part2();
+        }
+        break;
+    }
+    case 13:
+    {
+        day13 d13;
+        if (part == 1)
+        {
+            return d13.part1();
+        }
+        else if (part == 2)
+        {
+            return d13.part2();
+        }
+        break;
+    }
     default:
         cout << "That day is not complete.\n\n";
         break;
